@@ -1,0 +1,153 @@
+
+body {
+  background-color: #073642 !important;
+  margin: 15px;
+  padding: 10px;
+}
+
+.outer {
+  background-color: #fffaf3;
+  border: 1px solid #586e75;
+  border-radius: 10px;
+}
+
+.responses-loading {
+  background-image: url("../img/ajax-loader.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: auto;
+  height: 300px;
+}
+
+.responses {
+  overflow-y: auto;
+  background-image: none;
+  width: auto;
+  height: auto;
+}
+
+caption {
+  color: #073642;
+  font-weight: 900;
+}
+
+div.main {
+  border: 1px solid #586e75;
+  border-radius: 3px;
+  background-color: #eee8d5;
+  padding-top: 5px;
+  margin: 5px;
+  box-shadow: 5px 5px 5px rgba(128,128,128,128);
+}
+
+div.left{
+  clear: both;
+  padding: 10px;
+  margin-left: 5px;
+}
+
+div.right {
+  clear: both;
+  padding: 10px;
+  margin-top: -30px;
+  margin-left: 5px;
+}
+
+div.bottom {
+  clear: both;
+  border: 1px solid #586e75;
+  border-radius: 3px;
+  padding: 15px;
+  margin: 5px;
+  box-shadow: 5px 5px 5px rgba(128,128,128,128);
+}
+
+td.algo {
+  color: #073642;
+  padding-left: 2px;
+  padding-right: 2px;
+  width: 250px;
+}
+
+td.bits {
+  color: #073642;
+  padding-left: 2px;
+  padding-right: 2px;
+  width: 50px;
+}
+
+.bs-callout {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+  background-color: #fffcf2;
+}
+
+.bs-test {
+  padding: 8px;
+  margin: 8px 0;
+  background-color: #ffffff;
+}
+
+.bs-callout h4 {
+  margin-top: 0;
+  margin-bottom: 5px
+}
+
+.bs-callout p:last-child {
+  margin-bottom: 0
+}
+
+.bs-callout code {
+  border-radius: 3px
+}
+
+.bs-callout+.bs-callout {
+  margin-top: -5px
+}
+
+.bs-callout-primary {
+  border-left-color: #428bca;
+}
+
+.bs-callout-primary h4 {
+  color: #428bca;
+}
+
+.bs-callout-danger {
+  border-left-color: #d9534f
+}
+
+.bs-callout-danger h4 {
+  color: #d9534f
+}
+
+.bs-callout-warning {
+  border-left-color: #f0ad4e
+}
+
+.bs-callout-warning h4 {
+  color: #f0ad4e
+}
+
+.bs-callout-info {
+  border-left-color: #5bc0de
+}
+
+.bs-callout-info h4 {
+  color: #5bc0de
+}
+
+.bs-callout-success {
+  border-left-color: rgb(92, 184, 92);
+}
+
+.bs-callout-success h4 {
+  color: rgb(92, 184, 92);
+}
+
+.form-group {
+  margin-bottom: 7px;
+}

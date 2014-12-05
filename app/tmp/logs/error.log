@@ -1,0 +1,926 @@
+2014-11-21 02:08:07 Error: [PDOException] SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+Request URL: /uncanny/responses/add
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "ma...', Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO "ma...')
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(1854): DboSource->create(Object(Response), Array, Array)
+#4 /Users/jayreardon/repos/uncanny/app/Controller/ResponsesController.php(59): Model->save(Array)
+#5 [internal function]: ResponsesController->add()
+#6 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ResponsesController), Array)
+#7 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ResponsesController), Object(CakeRequest))
+#9 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-11-21 02:08:35 Error: [PDOException] SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+Request URL: /uncanny/responses/add
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "ma...', Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO "ma...')
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(1854): DboSource->create(Object(Response), Array, Array)
+#4 /Users/jayreardon/repos/uncanny/app/Controller/ResponsesController.php(59): Model->save(Array)
+#5 [internal function]: ResponsesController->add()
+#6 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ResponsesController), Array)
+#7 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ResponsesController), Object(CakeRequest))
+#9 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-11-21 02:13:03 Error: [NotFoundException] Invalid response
+Request URL: /uncanny/responses/delete
+Stack Trace:
+#0 [internal function]: ResponsesController->delete()
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ResponsesController), Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ResponsesController), Object(CakeRequest))
+#4 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-21 02:13:12 Error: [NotFoundException] Invalid response
+Request URL: /uncanny/responses/delete
+Stack Trace:
+#0 [internal function]: ResponsesController->delete()
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ResponsesController), Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ResponsesController), Object(CakeRequest))
+#4 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-21 02:15:32 Error: Fatal Error (1): Class 'AppController' not found in [/Users/jayreardon/repos/uncanny/app/Controller/ResponsesController.php, line 10]
+2014-11-21 02:15:32 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /uncanny/responses/delete
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/Users/jayreard...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/Users/jayreard...', 10, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/Users/jayreard...', 10, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-21 02:15:35 Error: Fatal Error (1): Class 'AppController' not found in [/Users/jayreardon/repos/uncanny/app/Controller/PagesController.php, line 31]
+2014-11-21 02:15:35 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /uncanny/
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/Users/jayreard...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/Users/jayreard...', 31, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/Users/jayreard...', 31, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-21 02:16:57 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/users/login
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 02:17:58 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /uncanny/users/login
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-21 02:18:15 Error: [MissingViewException] View file "/Users/jayreardon/repos/uncanny/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/jayreardon/repos/uncanny/app/View/Users/login.ctp',
+)
+Request URL: /uncanny/users/login
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-21 02:32:27 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /uncanny/users/login
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-21 02:47:41 Error: Fatal Error (1): Call to undefined method AuthComponent::authorize() in [/Users/jayreardon/repos/uncanny/app/Controller/AppController.php, line 79]
+2014-11-21 02:47:41 Error: [FatalErrorException] Call to undefined method AuthComponent::authorize()
+Request URL: /uncanny/
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jayreard...', 79)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jayreard...', 79, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jayreard...', 79, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-21 02:49:30 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/jayreardon/repos/uncanny/app/Controller/AppController.php, line 59]
+2014-11-21 02:49:30 Error: [FatalErrorException] parse error, expecting `')''
+Request URL: /uncanny/
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/jayreard...', 59)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/jayreard...', 59, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/jayreard...', 59, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-21 02:49:44 Error: Fatal Error (1): Call to undefined method AuthComponent::authorize() in [/Users/jayreardon/repos/uncanny/app/Controller/AppController.php, line 80]
+2014-11-21 02:49:44 Error: [FatalErrorException] Call to undefined method AuthComponent::authorize()
+Request URL: /uncanny/
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jayreard...', 80)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jayreard...', 80, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jayreard...', 80, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-21 13:53:44 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/home
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 13:53:55 Error: [MissingActionException] Action AppController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'home',
+)
+Request URL: /uncanny/app/home
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-21 13:54:08 Error: [MissingActionException] Action AppController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'display',
+)
+Request URL: /uncanny/app/display/home
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-21 13:54:14 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /uncanny/app/
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 01:06:27 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/Users/jayreardon/repos/uncanny/app/Controller/AppController.php, line 76]
+2014-11-22 01:06:27 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /uncanny/users/login
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jayreard...', 76)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jayreard...', 76, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jayreard...', 76, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-22 01:08:06 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/Users/jayreardon/repos/uncanny/app/Controller/AppController.php, line 76]
+2014-11-22 01:08:06 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /uncanny/users/login
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jayreard...', 76)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jayreard...', 76, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jayreard...', 76, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-22 01:08:08 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/Users/jayreardon/repos/uncanny/app/Controller/AppController.php, line 76]
+2014-11-22 01:08:08 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /uncanny/users/login
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jayreard...', 76)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jayreard...', 76, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jayreard...', 76, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-22 01:09:37 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/Users/jayreardon/repos/uncanny/app/Controller/AppController.php, line 76]
+2014-11-22 01:09:37 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /uncanny/users/login
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jayreard...', 76)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jayreard...', 76, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jayreard...', 76, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-22 01:09:38 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/Users/jayreardon/repos/uncanny/app/Controller/AppController.php, line 76]
+2014-11-22 01:09:38 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /uncanny/users/login
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jayreard...', 76)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jayreard...', 76, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jayreard...', 76, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-22 01:16:09 Error: Fatal Error (4): parse error in [/Users/jayreardon/repos/uncanny/app/Controller/AppController.php, line 68]
+2014-11-22 01:16:09 Error: [FatalErrorException] parse error
+Request URL: /uncanny/users/login
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jayreard...', 68)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jayreard...', 68, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jayreard...', 68, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-22 01:17:19 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /uncanny/users/login
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(186): Controller->constructClasses()
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-22 01:17:40 Error: [MissingComponentException] Component class flashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'flashComponent',
+  'plugin' => false,
+)
+Request URL: /uncanny/users/login
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('flash', Array)
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(186): Controller->constructClasses()
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-22 01:17:41 Error: [MissingComponentException] Component class flashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'flashComponent',
+  'plugin' => false,
+)
+Request URL: /uncanny/users/login
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('flash', Array)
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(186): Controller->constructClasses()
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-23 00:53:55 Error: Fatal Error (4): parse error in [/Users/jayreardon/repos/uncanny/app/View/Pages/home.ctp, line 14]
+2014-11-23 00:53:55 Error: [FatalErrorException] parse error
+Request URL: /uncanny/
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jayreard...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jayreard...', 14, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jayreard...', 14, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-23 00:53:58 Error: Fatal Error (4): parse error in [/Users/jayreardon/repos/uncanny/app/View/Pages/home.ctp, line 14]
+2014-11-23 00:53:58 Error: [FatalErrorException] parse error
+Request URL: /uncanny/
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jayreard...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jayreard...', 14, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jayreard...', 14, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-23 02:00:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/css/webroot/img/ajax-loader.gif
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-23 02:00:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/css/webroot/img/ajax-loader.gif
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-23 02:02:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/css/webroot/img/ajax-loader.gif
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-23 02:03:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/css/webroot/img/ajax-loader.gif
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-23 02:03:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/css/webroot/img/ajax-loader.gif
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-23 02:04:01 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/webroot/img/ajax-loader.gif
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-23 02:04:18 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/css////img/ajax-loader.gif
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-23 02:05:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/css/img/ajax-loader.gif
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-23 02:05:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/css/img/ajax-loader.gif
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 00:28:04 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/user/add
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 00:42:25 Error: Fatal Error (4): parse error in [/Users/jayreardon/repos/uncanny/app/View/Pages/home.ctp, line 23]
+2014-11-24 00:42:25 Error: [FatalErrorException] parse error
+Request URL: /uncanny/
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jayreard...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jayreard...', 23, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jayreard...', 23, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 00:42:58 Error: [MissingViewException] View file "/Users/jayreardon/repos/uncanny/app/View/Pages/responses.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/jayreardon/repos/uncanny/app/View/Pages/responses.ctp',
+)
+Request URL: /uncanny/pages/responses
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/View/View.php(468): View->_getViewFileName('responses')
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(954): View->render('responses', NULL)
+#2 /Users/jayreardon/repos/uncanny/app/Controller/PagesController.php(68): Controller->render('responses')
+#3 [internal function]: PagesController->display('responses')
+#4 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-11-24 00:43:37 Error: [MissingViewException] View file "/Users/jayreardon/repos/uncanny/app/View/Pages/responses.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/jayreardon/repos/uncanny/app/View/Pages/responses.ctp',
+)
+Request URL: /uncanny/pages/responses
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/View/View.php(468): View->_getViewFileName('responses')
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(954): View->render('responses', NULL)
+#2 /Users/jayreardon/repos/uncanny/app/Controller/PagesController.php(68): Controller->render('responses')
+#3 [internal function]: PagesController->display('responses')
+#4 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-11-24 00:46:24 Error: [MissingViewException] View file "/Users/jayreardon/repos/uncanny/app/View/Pages/responses.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/jayreardon/repos/uncanny/app/View/Pages/responses.ctp',
+)
+Request URL: /uncanny/pages/responses
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/View/View.php(468): View->_getViewFileName('responses')
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(954): View->render('responses', NULL)
+#2 /Users/jayreardon/repos/uncanny/app/Controller/PagesController.php(68): Controller->render('responses')
+#3 [internal function]: PagesController->display('responses')
+#4 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-11-24 00:50:47 Error: [MissingViewException] View file "/Users/jayreardon/repos/uncanny/app/View/Pages/responses.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/jayreardon/repos/uncanny/app/View/Pages/responses.ctp',
+)
+Request URL: /uncanny/pages/responses
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/View/View.php(468): View->_getViewFileName('responses')
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(954): View->render('responses', NULL)
+#2 /Users/jayreardon/repos/uncanny/app/Controller/PagesController.php(68): Controller->render('responses')
+#3 [internal function]: PagesController->display('responses')
+#4 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-11-24 01:02:27 Error: Fatal Error (4): parse error in [/Users/jayreardon/repos/uncanny/app/View/Responses/add.ctp, line 18]
+2014-11-24 01:02:27 Error: [FatalErrorException] parse error
+Request URL: /uncanny/Responses/add
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jayreard...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jayreard...', 18, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jayreard...', 18, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 01:02:27 Error: Fatal Error (4): parse error in [/Users/jayreardon/repos/uncanny/app/View/Responses/add.ctp, line 18]
+2014-11-24 01:02:27 Error: [FatalErrorException] parse error
+Request URL: /uncanny/Responses/add
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jayreard...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jayreard...', 18, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jayreard...', 18, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 01:05:55 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/jayreardon/repos/uncanny/app/View/Responses/add.ctp, line 18]
+2014-11-24 01:05:55 Error: [FatalErrorException] parse error, expecting `')''
+Request URL: /uncanny/Responses/add
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/jayreard...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/jayreard...', 18, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/jayreard...', 18, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 01:25:29 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/jayreardon/repos/uncanny/app/View/Responses/add.ctp, line 24]
+2014-11-24 01:25:29 Error: [FatalErrorException] parse error, expecting `')''
+Request URL: /uncanny/Responses/add
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/jayreard...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/jayreard...', 24, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/jayreard...', 24, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 23:06:21 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/jayreardon/repos/uncanny/app/View/Users/add.ctp, line 24]
+2014-11-24 23:06:21 Error: [FatalErrorException] parse error, expecting `')''
+Request URL: /uncanny/users/add
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/jayreard...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/jayreard...', 24, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/jayreard...', 24, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-25 00:59:15 Error: Fatal Error (4): parse error in [/Users/jayreardon/repos/uncanny/app/View/Layouts/default.ctp, line 53]
+2014-11-25 00:59:15 Error: [FatalErrorException] parse error
+Request URL: /uncanny/
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jayreard...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jayreard...', 53, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jayreard...', 53, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-25 00:59:31 Error: [MissingControllerException] Controller class PageController could not be found.
+Exception Attributes: array (
+  'class' => 'PageController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/Page/home
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-25 01:03:45 Error: [MissingControllerException] Controller class PageController could not be found.
+Exception Attributes: array (
+  'class' => 'PageController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/Page/home
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-28 01:52:15 Error: [MissingTableException] Table anotations for model Annotations was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'anotations',
+  'class' => 'Annotations',
+  'ds' => 'default',
+)
+Request URL: /uncanny/Responses/view/1
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(3566): Model->setSource('anotations')
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(1369): Model->getDataSource()
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Datasource/DboSource.php(2490): Model->schema()
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Datasource/DboSource.php(1731): DboSource->fields(Object(AppModel), 'Annotations', '')
+#4 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Datasource/DboSource.php(1233): DboSource->generateAssociationQuery(Object(Response), Object(AppModel), 'hasMany', 'Annotations', Array, Array, true)
+#5 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(Response), Object(AppModel), 'hasMany', 'Annotations', Array, Array, true, Array, 0, Array)
+#6 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Response), Array)
+#7 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#8 /Users/jayreardon/repos/uncanny/app/Controller/ResponsesController.php(43): Model->find('first', Array)
+#9 [internal function]: ResponsesController->view('1')
+#10 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ResponsesController), Array)
+#11 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ResponsesController), Object(CakeRequest))
+#13 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-11-28 01:52:34 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Annotation.id
+Request URL: /uncanny/Responses/view/1
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Datasource/DboSource.php(456): PDO->prepare('SELECT "Annotat...', Array)
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Annotat...', Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT "Annotat...', Array, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Datasource/DboSource.php(1417): DboSource->fetchAll('SELECT "Annotat...', false)
+#4 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Datasource/DboSource.php(1254): DboSource->_fetchHasMany(Object(Response), 'SELECT "Annotat...', Array)
+#5 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(Response), Object(Annotation), 'hasMany', 'Annotations', Array, Array, true, Array, 0, Array)
+#6 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Response), Array)
+#7 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#8 /Users/jayreardon/repos/uncanny/app/Controller/ResponsesController.php(43): Model->find('first', Array)
+#9 [internal function]: ResponsesController->view('1')
+#10 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ResponsesController), Array)
+#11 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ResponsesController), Object(CakeRequest))
+#13 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-11-28 10:38:53 Error: Fatal Error (4): parse error, expecting `','' or `';'' in [/Users/jayreardon/repos/uncanny/app/View/Responses/view.ctp, line 5]
+2014-11-28 10:38:53 Error: [FatalErrorException] parse error, expecting `','' or `';''
+Request URL: /uncanny/Responses/view/1
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/jayreard...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/jayreard...', 5, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/jayreard...', 5, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-28 10:40:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/img/new.png
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-28 10:41:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/img/new.png
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-28 10:41:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/img/new.png
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-28 10:42:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/img/new.png
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-28 10:42:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/img/new.png
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-28 10:43:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/img/new.png
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-28 10:43:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/img/new.png
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-28 13:11:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/img/list.png
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-28 13:11:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/img/list.png
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-28 14:42:34 Error: [MissingControllerException] Controller class AnnotationController could not be found.
+Exception Attributes: array (
+  'class' => 'AnnotationController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/Annotation/add
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-28 14:49:11 Error: [MissingControllerException] Controller class AnnotationController could not be found.
+Exception Attributes: array (
+  'class' => 'AnnotationController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/Annotation/
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 12:09:39 Error: Fatal Error (4): parse error in [/Users/jayreardon/repos/uncanny/app/View/Annotations/edit.ctp, line 11]
+2014-12-01 12:09:39 Error: [FatalErrorException] parse error
+Request URL: /uncanny/Annotations/edit/1
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jayreard...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jayreard...', 11, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jayreard...', 11, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 13:04:19 Error: Fatal Error (4): parse error in [/Users/jayreardon/repos/uncanny/app/View/Annotations/add.ctp, line 11]
+2014-12-01 13:04:19 Error: [FatalErrorException] parse error
+Request URL: /uncanny/Annotations/add/response_id:1
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jayreard...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jayreard...', 11, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jayreard...', 11, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 15:01:55 Error: [MissingControllerException] Controller class ResponseController could not be found.
+Exception Attributes: array (
+  'class' => 'ResponseController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/Response/generateResponse/1,2
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 15:02:08 Error: [MissingViewException] View file "/Users/jayreardon/repos/uncanny/app/View/Responses/generate_response.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/jayreardon/repos/uncanny/app/View/Responses/generate_response.ctp',
+)
+Request URL: /uncanny/Responses/generateResponse/1,2
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ResponsesController), Object(CakeRequest))
+#4 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-01 15:09:09 Error: [NotFoundException] Invalid response
+Request URL: /uncanny/Responses/generateResponse/1,2,3
+Stack Trace:
+#0 [internal function]: ResponsesController->generateResponse('1,2,3')
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ResponsesController), Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ResponsesController), Object(CakeRequest))
+#4 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-01 15:12:48 Error: Fatal Error (4): parse error in [/Users/jayreardon/repos/uncanny/app/Controller/ResponsesController.php, line 233]
+2014-12-01 15:12:48 Error: [FatalErrorException] parse error
+Request URL: /uncanny/Responses/generateResponse/1,2
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jayreard...', 233)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jayreard...', 233, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jayreard...', 233, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 15:16:49 Error: [MissingViewException] View file "/Users/jayreardon/repos/uncanny/app/View/Responses/json/generate_response.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/jayreardon/repos/uncanny/app/View/Responses/json/generate_response.ctp',
+)
+Request URL: /uncanny/Responses/generateResponse/1,2/.json
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ResponsesController), Object(CakeRequest))
+#4 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-01 15:37:54 Error: [NotFoundException] Invalid response
+Request URL: /uncanny/responses/generateResponse//.json
+Stack Trace:
+#0 [internal function]: ResponsesController->generateResponse()
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ResponsesController), Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ResponsesController), Object(CakeRequest))
+#4 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-01 15:37:58 Error: [NotFoundException] Invalid response
+Request URL: /uncanny/responses/generateResponse//.json
+Stack Trace:
+#0 [internal function]: ResponsesController->generateResponse()
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ResponsesController), Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ResponsesController), Object(CakeRequest))
+#4 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-01 15:38:44 Error: [NotFoundException] Invalid response
+Request URL: /uncanny/responses/generateResponse/null/.json
+Stack Trace:
+#0 [internal function]: ResponsesController->generateResponse('null')
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ResponsesController), Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ResponsesController), Object(CakeRequest))
+#4 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-01 15:41:24 Error: [NotFoundException] Invalid response
+Request URL: /uncanny/responses/generateResponse/.json
+Stack Trace:
+#0 [internal function]: ResponsesController->generateResponse()
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ResponsesController), Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ResponsesController), Object(CakeRequest))
+#4 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-01 15:42:58 Error: [MissingActionException] Action ResponsesController::generateResponse1() could not be found.
+Exception Attributes: array (
+  'controller' => 'ResponsesController',
+  'action' => 'generateResponse1',
+)
+Request URL: /uncanny/responses/generateResponse1/.json
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ResponsesController), Object(CakeRequest))
+#2 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-01 15:43:00 Error: [MissingActionException] Action ResponsesController::generateResponse () could not be found.
+Exception Attributes: array (
+  'controller' => 'ResponsesController',
+  'action' => 'generateResponse ',
+)
+Request URL: /uncanny/responses/generateResponse%C2%A0/.json
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ResponsesController), Object(CakeRequest))
+#2 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-01 15:43:09 Error: [NotFoundException] Invalid response
+Request URL: /uncanny/responses/generateResponse/%C2%A0/.json
+Stack Trace:
+#0 [internal function]: ResponsesController->generateResponse('\xC2\xA0')
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ResponsesController), Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ResponsesController), Object(CakeRequest))
+#4 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-01 16:07:44 Error: Fatal Error (4): parse error in [/Users/jayreardon/repos/uncanny/app/Controller/ResponsesController.php, line 249]
+2014-12-01 16:07:44 Error: [FatalErrorException] parse error
+Request URL: /uncanny/Responses/generateResponse/1,2
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jayreard...', 249)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jayreard...', 249, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jayreard...', 249, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 16:07:49 Error: Fatal Error (4): parse error in [/Users/jayreardon/repos/uncanny/app/Controller/ResponsesController.php, line 249]
+2014-12-01 16:07:49 Error: [FatalErrorException] parse error
+Request URL: /uncanny/Responses/generate_response/1,2
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jayreard...', 249)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jayreard...', 249, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jayreard...', 249, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 07:15:42 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /uncanny/Responses/view/1
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(3566): Model->setSource('categories')
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(1369): Model->getDataSource()
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Datasource/DboSource.php(2490): Model->schema()
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Datasource/DboSource.php(1715): DboSource->fields(Object(AppModel), 'Category', '')
+#4 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Response), Object(AppModel), 'belongsTo', 'Category', Array, Array, false)
+#5 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Response), Array)
+#6 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/jayreardon/repos/uncanny/app/Controller/ResponsesController.php(43): Model->find('first', Array)
+#8 [internal function]: ResponsesController->view('1')
+#9 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ResponsesController), Array)
+#10 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ResponsesController), Object(CakeRequest))
+#12 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-02 07:19:04 Error: [MissingControllerException] Controller class CatagoriesController could not be found.
+Exception Attributes: array (
+  'class' => 'CatagoriesController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/Catagories
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-02 07:19:13 Error: [MissingControllerException] Controller class CategoriesController could not be found.
+Exception Attributes: array (
+  'class' => 'CategoriesController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/Categories
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-02 07:19:18 Error: [MissingControllerException] Controller class CategoriesController could not be found.
+Exception Attributes: array (
+  'class' => 'CategoriesController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/Categories
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-03 13:08:50 Error: [MissingControllerException] Controller class CategoryController could not be found.
+Exception Attributes: array (
+  'class' => 'CategoryController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/Category/add
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-03 16:08:33 Error: [MissingViewException] View file "/Users/jayreardon/repos/uncanny/app/View/Responses/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/jayreardon/repos/uncanny/app/View/Responses/json/view.ctp',
+)
+Request URL: /uncanny/Responses/view/1/.json
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ResponsesController), Object(CakeRequest))
+#4 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-04 13:52:15 Error: [MissingControllerException] Controller class CategoryController could not be found.
+Exception Attributes: array (
+  'class' => 'CategoryController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/Category
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
