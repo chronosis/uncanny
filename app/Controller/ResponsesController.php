@@ -41,6 +41,7 @@ class ResponsesController extends AppController {
 		}
 		$options = array('conditions' => array('Response.' . $this->Response->primaryKey => $id));
 		$this->set('response', $this->Response->find('first', $options));
+		$this->set('_serialize', array('response'));
 	}
 
 /**
@@ -63,9 +64,9 @@ class ResponsesController extends AppController {
 	'class' => 'alert-danger'
 ));
 			}
-			$categories = $this->Response->Category->find('list');
-			$this->set(compact('categories'));
 		}
+		$categories = $this->Response->Category->find('list');
+		$this->set(compact('categories'));
 	}
 
 /**
@@ -97,7 +98,7 @@ class ResponsesController extends AppController {
 			$this->request->data = $this->Response->find('first', $options);
 		}
 		$categories = $this->Response->Category->find('list');
-		$this->set(compact('categories'));	
+		$this->set(compact('categories'));
 	}
 
 /**

@@ -1,4 +1,4 @@
-<div class="annotations index container panel">
+<div class="annotations index container panel col-md-12">
 	<h2><?php echo __('Annotations'); ?></h2>
 	<table class="table table-striped">
 	<thead>
@@ -42,6 +42,7 @@
 	?>
 	</div>
 </div>
+<hr/>
 <div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>

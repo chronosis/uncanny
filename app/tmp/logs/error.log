@@ -924,3 +924,357 @@ Request URL: /uncanny/Category
 Stack Trace:
 #0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-12-05 15:27:12 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/jayreardon/repos/uncanny/app/Config/database.php, line 70]
+2014-12-05 15:27:12 Error: [FatalErrorException] parse error, expecting `')''
+Request URL: /uncanny/
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/jayreard...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/jayreard...', 70, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/jayreard...', 70, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-05 15:28:07 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/jayreardon/repos/uncanny/app/Config/database.php, line 70]
+2014-12-05 15:28:07 Error: [FatalErrorException] parse error, expecting `')''
+Request URL: /uncanny/
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/jayreard...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/jayreard...', 70, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/jayreard...', 70, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-05 15:28:09 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/jayreardon/repos/uncanny/app/Config/database.php, line 70]
+2014-12-05 15:28:09 Error: [FatalErrorException] parse error, expecting `')''
+Request URL: /uncanny/
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/jayreard...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/jayreard...', 70, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/jayreard...', 70, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-05 15:28:17 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/jayreardon/repos/uncanny/app/Config/database.php, line 70]
+2014-12-05 15:28:17 Error: [FatalErrorException] parse error, expecting `')''
+Request URL: /uncanny/
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/jayreard...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/jayreard...', 70, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/jayreard...', 70, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-05 15:29:11 Error: Fatal Error (4): parse error, expecting `','' or `';'' in [/Users/jayreardon/repos/uncanny/app/Config/database.php, line 66]
+2014-12-05 15:29:11 Error: [FatalErrorException] parse error, expecting `','' or `';''
+Request URL: /uncanny/
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/jayreard...', 66)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/jayreard...', 66, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/jayreard...', 66, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-05 15:29:51 Error: Fatal Error (4): parse error, expecting `','' or `';'' in [/Users/jayreardon/repos/uncanny/app/Config/database.php, line 66]
+2014-12-05 15:29:51 Error: [FatalErrorException] parse error, expecting `','' or `';''
+Request URL: /uncanny/
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/jayreard...', 66)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/jayreard...', 66, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/jayreard...', 66, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-05 16:13:31 Error: [MissingConnectionException] Database connection "Sqlite" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Sqlite',
+  'message' => 'SQLSTATE[HY000] [14] unable to open database file',
+  'enabled' => true,
+)
+Request URL: /uncanny/categories/index/.json
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Datasource/DboSource.php(260): Sqlite->connect()
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(3566): Model->setSource('categories')
+#5 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /Users/jayreardon/repos/uncanny/app/Controller/CategoriesController.php(27): PaginatorComponent->paginate()
+#9 [internal function]: CategoriesController->index()
+#10 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#11 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#13 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-05 16:13:36 Error: [MissingConnectionException] Database connection "Sqlite" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Sqlite',
+  'message' => 'SQLSTATE[HY000] [14] unable to open database file',
+  'enabled' => true,
+)
+Request URL: /uncanny/Responses
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Datasource/DboSource.php(260): Sqlite->connect()
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(3566): Model->setSource('responses')
+#5 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /Users/jayreardon/repos/uncanny/app/Controller/ResponsesController.php(27): PaginatorComponent->paginate()
+#9 [internal function]: ResponsesController->index()
+#10 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ResponsesController), Array)
+#11 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ResponsesController), Object(CakeRequest))
+#13 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-05 16:13:57 Error: Fatal Error (4): parse error in [/Users/jayreardon/repos/uncanny/app/Config/database.php, line 71]
+2014-12-05 16:13:57 Error: [FatalErrorException] parse error
+Request URL: /uncanny/Responses
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jayreard...', 71)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jayreard...', 71, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jayreard...', 71, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-05 16:14:02 Error: Fatal Error (4): parse error in [/Users/jayreardon/repos/uncanny/app/Config/database.php, line 71]
+2014-12-05 16:14:02 Error: [FatalErrorException] parse error
+Request URL: /uncanny/
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jayreard...', 71)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jayreard...', 71, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jayreard...', 71, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-05 16:14:27 Error: Fatal Error (4): parse error in [/Users/jayreardon/repos/uncanny/app/Config/database.php, line 71]
+2014-12-05 16:14:27 Error: [FatalErrorException] parse error
+Request URL: /uncanny/
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jayreard...', 71)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jayreard...', 71, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jayreard...', 71, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-05 16:16:21 Error: Fatal Error (4): parse error in [/Users/jayreardon/repos/uncanny/app/Config/database.php, line 65]
+2014-12-05 16:16:21 Error: [FatalErrorException] parse error
+Request URL: /uncanny/
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jayreard...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jayreard...', 65, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jayreard...', 65, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-05 16:16:24 Error: Fatal Error (4): parse error in [/Users/jayreardon/repos/uncanny/app/Config/database.php, line 65]
+2014-12-05 16:16:24 Error: [FatalErrorException] parse error
+Request URL: /uncanny/
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jayreard...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jayreard...', 65, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jayreard...', 65, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-05 16:16:33 Error: Fatal Error (4): parse error in [/Users/jayreardon/repos/uncanny/app/Config/database.php, line 65]
+2014-12-05 16:16:33 Error: [FatalErrorException] parse error
+Request URL: /uncanny/
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jayreard...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jayreard...', 65, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jayreard...', 65, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-05 16:16:35 Error: Fatal Error (4): parse error in [/Users/jayreardon/repos/uncanny/app/Config/database.php, line 65]
+2014-12-05 16:16:35 Error: [FatalErrorException] parse error
+Request URL: /uncanny/
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jayreard...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jayreard...', 65, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jayreard...', 65, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-05 16:16:45 Error: Fatal Error (4): parse error in [/Users/jayreardon/repos/uncanny/app/Config/database.php, line 73]
+2014-12-05 16:16:45 Error: [FatalErrorException] parse error
+Request URL: /uncanny/
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jayreard...', 73)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jayreard...', 73, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jayreard...', 73, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-05 16:33:02 Error: [MissingConnectionException] Database connection "Sqlite" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Sqlite',
+  'message' => 'SQLSTATE[HY000] [14] unable to open database file',
+  'enabled' => true,
+)
+Request URL: /uncanny/categories/index/.json
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Datasource/DboSource.php(260): Sqlite->connect()
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(3566): Model->setSource('categories')
+#5 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /Users/jayreardon/repos/uncanny/app/Controller/CategoriesController.php(27): PaginatorComponent->paginate()
+#9 [internal function]: CategoriesController->index()
+#10 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#11 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#13 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-05 16:33:04 Error: [MissingConnectionException] Database connection "Sqlite" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Sqlite',
+  'message' => 'SQLSTATE[HY000] [14] unable to open database file',
+  'enabled' => true,
+)
+Request URL: /uncanny/Responses
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Datasource/DboSource.php(260): Sqlite->connect()
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(3566): Model->setSource('responses')
+#5 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /Users/jayreardon/repos/uncanny/app/Controller/ResponsesController.php(27): PaginatorComponent->paginate()
+#9 [internal function]: ResponsesController->index()
+#10 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ResponsesController), Array)
+#11 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ResponsesController), Object(CakeRequest))
+#13 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-05 16:33:57 Error: [MissingConnectionException] Database connection "Sqlite" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Sqlite',
+  'message' => 'SQLSTATE[HY000] [14] unable to open database file',
+  'enabled' => true,
+)
+Request URL: /uncanny/Responses
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Datasource/DboSource.php(260): Sqlite->connect()
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(3566): Model->setSource('responses')
+#5 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /Users/jayreardon/repos/uncanny/app/Controller/ResponsesController.php(27): PaginatorComponent->paginate()
+#9 [internal function]: ResponsesController->index()
+#10 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ResponsesController), Array)
+#11 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ResponsesController), Object(CakeRequest))
+#13 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-05 16:34:00 Error: [MissingConnectionException] Database connection "Sqlite" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Sqlite',
+  'message' => 'SQLSTATE[HY000] [14] unable to open database file',
+  'enabled' => true,
+)
+Request URL: /uncanny/categories/index/.json
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Datasource/DboSource.php(260): Sqlite->connect()
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(3566): Model->setSource('categories')
+#5 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/jayreardon/repos/uncanny/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /Users/jayreardon/repos/uncanny/app/Controller/CategoriesController.php(27): PaginatorComponent->paginate()
+#9 [internal function]: CategoriesController->index()
+#10 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#11 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#13 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-08 23:25:04 Error: [MissingHelperException] Helper class category_idHelper could not be found.
+Exception Attributes: array (
+  'class' => 'category_idHelper',
+  'plugin' => false,
+)
+Request URL: /uncanny/responses/Add/category_id:2
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('category_id')
+#1 /Users/jayreardon/repos/uncanny/lib/Cake/View/View.php(837): HelperCollection->__isset('category_id')
+#2 /Users/jayreardon/repos/uncanny/app/View/Responses/add.ctp(27): View->__get('category_id')
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/View/View.php(948): include('/Users/jayreard...')
+#4 /Users/jayreardon/repos/uncanny/lib/Cake/View/View.php(910): View->_evaluate('/Users/jayreard...', Array)
+#5 /Users/jayreardon/repos/uncanny/lib/Cake/View/View.php(471): View->_render('/Users/jayreard...')
+#6 /Users/jayreardon/repos/uncanny/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /Users/jayreardon/repos/uncanny/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ResponsesController), Object(CakeRequest))
+#9 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-08 23:28:51 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/jayreardon/repos/uncanny/app/View/Responses/add.ctp, line 27]
+2014-12-08 23:28:51 Error: [FatalErrorException] parse error, expecting `')''
+Request URL: /uncanny/responses/Add/category_id:2
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/jayreard...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/jayreard...', 27, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/jayreard...', 27, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-08 23:33:39 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/jayreardon/repos/uncanny/app/View/Responses/add.ctp, line 33]
+2014-12-08 23:33:39 Error: [FatalErrorException] parse error, expecting `')''
+Request URL: /uncanny/responses/Add/category_id:1
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/jayreard...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/jayreard...', 33, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/jayreard...', 33, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-08 23:33:46 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/jayreardon/repos/uncanny/app/View/Responses/add.ctp, line 33]
+2014-12-08 23:33:46 Error: [FatalErrorException] parse error, expecting `')''
+Request URL: /uncanny/responses/Add/category_id:1
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/jayreard...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/jayreard...', 33, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/jayreard...', 33, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-08 23:33:48 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/jayreardon/repos/uncanny/app/View/Responses/add.ctp, line 33]
+2014-12-08 23:33:48 Error: [FatalErrorException] parse error, expecting `')''
+Request URL: /uncanny/responses/Add/category_id:1
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/jayreard...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/jayreard...', 33, Array)
+#2 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/jayreard...', 33, Array)
+#3 /Users/jayreardon/repos/uncanny/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-12 16:01:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/img/backgroung.png
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-12 16:02:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /uncanny/img/backgroung.png
+Stack Trace:
+#0 /Users/jayreardon/repos/uncanny/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

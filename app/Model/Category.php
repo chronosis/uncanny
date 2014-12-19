@@ -31,4 +31,6 @@ class Category extends AppModel {
 		)
 	);
 
+	public $order = array("sort_order" => "ASC", "id" => "ASC");
+
 }

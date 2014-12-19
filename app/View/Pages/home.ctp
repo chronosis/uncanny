@@ -17,10 +17,11 @@ $this->Html->script('uncanny', array('block' => 'scriptBottomAfter'));
 <div class="col-md-12">
 <div class="row-fluid">
   <div class="col-md-4" class="height: auto; overflow: scroll;">
-		<h5>Select Responses</h5>
+		<h5>Select Responses<span style="float:right"><?php
+			echo $this->Html->link(__('Edit Categories'), array('controller' => 'categories', 'action' => 'index'));
+		?></span></h5>
 		<div id="responses" class="responses-loading">&nbsp;
 		</div>
-		<?php echo $this->Html->link('Edit Responses',  ['prefix' => false, 'controller' => 'Responses', 'action' => 'index']) ?>
 	</div>
   <div class="col-md-8" style="height: auto;">
 		<h5>Preview<span style="float: right;"><button type="button" class="btn btn-primary btn-xs" onClick="Uncanny.selectText('generated')">Select Text</button></span></h5>

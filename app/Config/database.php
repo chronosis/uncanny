@@ -62,12 +62,12 @@
  * flags =>
  * A key/value array of driver specific connection options.
  */
-class DATABASE_CONFIG {
 
+class DATABASE_CONFIG {
 	public $default = array(
 		'datasource' => 'Database/Sqlite',
 		'persistent' => false,
-		'database' => '/Users/jayreardon/repos/uncanny/app/Data/uncanny.db',
+		'database' => '/../Data/uncanny.db',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);
@@ -75,8 +75,14 @@ class DATABASE_CONFIG {
 	public $test = array(
 		'datasource' => 'Database/Sqlite',
 		'persistent' => false,
-		'database' => '/Users/jayreardon/repos/uncanny/app/Data/uncanny-test.db',
+		'database' => '/../Data/uncanny-test.db',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);
+
+	public function __construct() {
+		$dir = getcwd();
+		$this->default['database'] = $dir . $this->default['database'];
+		$this->test['database'] = $dir . $this->default['database'];
+	}
 }

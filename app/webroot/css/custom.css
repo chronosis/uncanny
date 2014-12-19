@@ -1,5 +1,7 @@
 
 body {
+  background-image: url("../img/background.png") !important;
+  background-repeat: repeat !important;
   background-color: #073642 !important;
   margin: 15px;
   padding: 10px;
@@ -19,7 +21,7 @@ body {
   height: 300px;
 }
 
-.responses {
+.responses-buttons {
   overflow-y: auto;
   background-image: none;
   width: auto;

@@ -14,7 +14,7 @@ class AnnotationsController extends AppController {
  *
  * @var array
  */
-	public $components = array('Paginator', 'Session');
+	public $components = array('Paginator', 'Session', 'RequestHandler');
 
 /**
  * index method
@@ -24,6 +24,7 @@ class AnnotationsController extends AppController {
 	public function index() {
 		$this->Annotation->recursive = 0;
 		$this->set('annotations', $this->Paginator->paginate());
+		$this->set('_serialize', array('annotations'));
 	}
 
 /**

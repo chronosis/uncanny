@@ -1,4 +1,4 @@
-<div class="responses index container panel">
+<div class="responses index container panel col-md-12">
 	<h2><?php
 		echo __('Responses');
 		echo "&nbsp;&nbsp;";
@@ -67,4 +67,5 @@
 		echo $this->Paginator->next(__('next') . ' >', array(), null, array('class' => 'next disabled'));
 	?>
 	</div>
-</div>
+</div><br/>
+<hr/>

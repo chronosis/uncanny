@@ -17,7 +17,21 @@
 			array('escape' => false, 'title' => __('List Annotations'))
 		); ?></legend>
 	<?php
-		echo $this->Form->hidden('response_id');
+	if (!(array_key_exists('response_id', $this->passedArgs)))	 {
+		echo $this->Form->input('response_id', array(
+			'wrapInput' => 'col col-md-3'
+		));
+	} else {
+		echo $this->Form->input('response_id', array(
+			'wrapInput' => 'col col-md-3',
+			'selected' => $this->passedArgs['response_id'],
+			'readonly',
+			'disabled'
+		));
+		echo $this->Form->hidden('response_id', array (
+			'value' => $this->passedArgs['response_id']
+		));
+	}
 		echo $this->Form->input('label', array(
 			'wrapInput' => 'col col-md-3',
 			'type' => 'text',

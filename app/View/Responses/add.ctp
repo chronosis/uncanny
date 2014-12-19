@@ -17,13 +17,25 @@
 			array('escape' => false, 'title' => __('List Response'))
 		); ?></legend>
 	<?php
+		if (!(array_key_exists('category_id', $this->passedArgs)))	 {
+			echo $this->Form->input('category_id', array(
+				'wrapInput' => 'col col-md-3'
+			));
+		} else {
+			echo $this->Form->input('category_id', array(
+				'wrapInput' => 'col col-md-3',
+				'selected' => $this->passedArgs['category_id'],
+				'readonly',
+				'disabled'
+			));
+			echo $this->Form->hidden('category_id', array (
+				'value' => $this->passedArgs['category_id']
+			));
+		}
 		echo $this->Form->input('label', array(
 			'wrapInput' => 'col col-md-3',
 			'type' => 'text',
 			'maxlength' => 45
-		));
-		echo $this->Form->input('category_id', array(
-			'wrapInput' => 'col col-md-3'
 		));
 		echo $this->Form->input('description', array(
 			'wrapInput' => 'col col-md-6',
@@ -39,6 +51,6 @@
 			'class' => 'col-md-offset-1 btn btn-primary'
 		));
 	?>
-
 	</fieldset>
+<?php echo $this->Form->end(); ?>
 </div>

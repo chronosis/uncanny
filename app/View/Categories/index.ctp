@@ -5,6 +5,7 @@
 	<tr>
 			<th><?php echo $this->Paginator->sort('id'); ?></th>
 			<th><?php echo $this->Paginator->sort('label'); ?></th>
+			<th><?php echo $this->Paginator->sort('sort_order'); ?></th>
 			<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
 	</thead>
@@ -13,6 +14,7 @@
 	<tr>
 		<td><?php echo h($category['Category']['id']); ?>&nbsp;</td>
 		<td><?php echo h($category['Category']['label']); ?>&nbsp;</td>
+		<td><?php echo h($category['Category']['sort_order']); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $category['Category']['id'])); ?>
 			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $category['Category']['id'])); ?>
@@ -36,6 +38,7 @@
 	?>
 	</div>
 </div>
+<hr/>
 <div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>

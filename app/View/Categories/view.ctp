@@ -1,6 +1,35 @@
-<div class="categories view">
-<h2><?php echo __('Category'); ?></h2>
-	<dl>
+<div class="categories view container panel">
+<h2>
+<?php
+	echo __('Category');
+	echo "&nbsp;&nbsp;";
+	echo $this->Html->link(
+		$this->Html->image('list.png', array('alt' => __('List Categories'), 'width' => '24px')),
+		array('action' => 'index'),
+		array('escape' => false, 'title' => __('List Categories'))
+	);
+	echo "&nbsp;";
+	echo $this->Html->link(
+		$this->Html->image('add.png', array('alt' => __('New Category'), 'width' => '24px')),
+		array('action' => 'add'),
+		array('escape' => false, 'title' => __('New Category'))
+	);
+	echo "&nbsp;";
+	echo $this->Html->link(
+		$this->Html->image('edit.png', array('alt' => __('Edit Category'), 'width' => '24px')),
+		array('action' => 'edit', $category['Category']['id']),
+		array('escape' => false, 'title' => __('Edit Category'))
+	);
+	echo "&nbsp;";
+	echo $this->Form->postlink(
+		$this->Html->image('delete.png', array('alt' => __('Delete Category'), 'width' => '24px')),
+		array('action' => 'delete', $category['Category']['id']),
+		array('escape' => false, 'title' => __('Delete Category')),
+		__('Are you sure you want to delete # %s?',
+		$category['Category']['id'])
+	);
+?></h2>
+	<dl class="dl-horizontal">
 		<dt><?php echo __('Id'); ?></dt>
 		<dd>
 			<?php echo h($category['Category']['id']); ?>
@@ -11,21 +40,31 @@
 			<?php echo h($category['Category']['label']); ?>
 			&nbsp;
 		</dd>
+		<dt><?php echo __('Sort Order'); ?></dt>
+		<dd>
+			<?php echo h($category['Category']['sort_order']); ?>
+			&nbsp;
+		</dd>
 	</dl>
 </div>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-		<li><?php echo $this->Html->link(__('Edit Category'), array('action' => 'edit', $category['Category']['id'])); ?> </li>
-		<li><?php echo $this->Form->postLink(__('Delete Category'), array('action' => 'delete', $category['Category']['id']), array(), __('Are you sure you want to delete # %s?', $category['Category']['id'])); ?> </li>
-		<li><?php echo $this->Html->link(__('List Categories'), array('action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Category'), array('action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Responses'), array('controller' => 'responses', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Responses'), array('controller' => 'responses', 'action' => 'add')); ?> </li>
-	</ul>
-</div>
 <div class="related">
-	<h3><?php echo __('Related Responses'); ?></h3>
+	<h3>
+<?php
+	echo __('Related Responses');
+	echo "&nbsp;&nbsp;";
+	echo $this->Html->link(
+		$this->Html->image('list.png', array('alt' => __('List Response'), 'width' => '24px')),
+		array('controller' => 'responses', 'action' => 'index'),
+		array('escape' => false, 'title' => __('List Response'))
+	);
+	echo "&nbsp;";
+	echo $this->Html->link(
+		$this->Html->image('add.png', array('alt' => __('New Response'), 'width' => '24px')),
+		array('controller' => 'responses', 'action' => 'add'),
+		array('escape' => false, 'title' => __('New Response'))
+	);
+	echo "&nbsp;";
+?></h3>
 	<?php if (!empty($category['responses'])): ?>
 	<table cellpadding = "0" cellspacing = "0">
 	<tr>

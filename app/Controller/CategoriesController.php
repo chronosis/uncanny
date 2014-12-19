@@ -14,8 +14,8 @@ class CategoriesController extends AppController {
  *
  * @var array
  */
-	public $components = array('Paginator', 'Session');
-	public $hasMany = array( 'Response' );	
+	public $components = array('Paginator', 'Session', 'RequestHandler');
+	public $hasMany = array( 'Response' );
 
 /**
  * index method
@@ -25,6 +25,7 @@ class CategoriesController extends AppController {
 	public function index() {
 		$this->Category->recursive = 0;
 		$this->set('categories', $this->Paginator->paginate());
+		$this->set('_serialize', array('categories'));
 	}
 
 /**
@@ -40,6 +41,7 @@ class CategoriesController extends AppController {
 		}
 		$options = array('conditions' => array('Category.' . $this->Category->primaryKey => $id));
 		$this->set('category', $this->Category->find('first', $options));
+		$this->set('_serialize', array('category'));
 	}
 
 /**

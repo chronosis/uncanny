@@ -13,10 +13,23 @@
 	<fieldset>
 		<legend><?php echo __('Add Category'); ?></legend>
 	<?php
-		echo $this->Form->input('label');
+		echo $this->Form->input('label', array(
+			'wrapInput' => 'col col-md-3',
+			'type' => 'text',
+			'maxlength' => 45
+		));
+		echo $this->Form->input('sort_order', array(
+			'wrapInput' => 'col col-md-1',
+			'type' => 'number',
+			'maxlength' => 5
+		));
+		echo $this->Form->submit(__('Submit'), array(
+			'wrapInput' => 'col col-md-offset-1',
+			'class' => 'col-md-offset-1 btn btn-primary'
+		));
 	?>
 	</fieldset>
-<?php echo $this->Form->end(__('Submit')); ?>
+<?php echo $this->Form->end(); ?>
 </div>
 <div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>

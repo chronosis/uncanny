@@ -97,7 +97,7 @@ Configure::write('Dispatcher.filters', array(
 Configure::write('Settings', array(
 	'Application' => array(
 		'Name' => 'Uncanny',
-		'Version' => '0.2.0',
+		'Version' => '0.3.0',
 		'Description' => 'The Canned Response Generator'
 )));
 /**
